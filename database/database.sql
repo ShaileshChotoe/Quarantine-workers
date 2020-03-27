@@ -4,7 +4,7 @@ if not EXISTS quarantine;
 use quarantine;
 
 create TABLE
-if EXISTS users
+if not EXISTS users
 (
     id int AUTO_INCREMENT,
     username varchar
@@ -18,7 +18,7 @@ if EXISTS users
 );
 
 create table
-if EXISTS posts
+if not EXISTS posts
 (
     id int AUTO_INCREMENT,
     code text
