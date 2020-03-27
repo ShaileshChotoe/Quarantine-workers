@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(52, 73, 94);
+}
+
+.public {
+    background-color: rgb(25,25,25);
+    height: 100%;
+    width: 65%;
+    position: absolute;
+}
+
+.tekst {
+    color: white;
+    text-align: center;
+}
+
+.create {
+    background-color: rgb(25,25,25);
+    height: 50%;
+    width: 33.5%;
+    margin-left: 65.5%;
+    position: absolute;
+}
+
+.private {
+    background-color: rgb(25,25,25);
+    height: 50%;
+    width: 33.5%;
+    margin-left: 65.5%;
+    margin-top: 26%;
+    position: absolute;
+}
+
+.code{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.code:hover{
+    background: #2ecc71;
+}
+
+.createbutton{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    height: 70%;
+    width: 70%;
+    margin-top: 12.5%;
+}
+.createbutton:hover{
+    background: #2ecc71;
+}
+
+.publiccode{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.publiccode:hover{
+    background: #2ecc71;
+}
