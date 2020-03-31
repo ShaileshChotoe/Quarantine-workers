@@ -19,14 +19,6 @@
             <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
             <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
             <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
         </div>
         <div class="create">
             <button class="createbutton">Share your code</button>
