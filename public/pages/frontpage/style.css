@@ -4,7 +4,7 @@ body {
 
 .public {
     background-color: rgb(25,25,25);
-    height: 98%;
+    height: max-content;
     width: 65%;
     position: absolute;
 }
@@ -24,7 +24,7 @@ body {
 
 .private {
     background-color: rgb(25,25,25);
-    height: 45%;
+    height: max-content;
     width: 33.5%;
     margin-left: 65.5%;
     margin-top: 26%;
@@ -44,6 +44,8 @@ body {
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
+    height: 400px;
+    width: 70%;
 }
 .code:hover{
     background: #2ecc71;
@@ -85,5 +87,25 @@ body {
     cursor: pointer;
 }
 .publiccode:hover{
+    background: #2ecc71;
+}
+
+.logout {
+    border:0;
+    background-color: rgb(25,25,25);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.logout:hover{
     background: #2ecc71;
 }
