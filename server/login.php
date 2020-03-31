@@ -14,7 +14,7 @@ checkIfUserExist($user);
 function checkIfUserExist($user)
 {
     if ($user != false) {
-        echo 'hello: ' . $user->username;
+        header("Location: ../public/pages/frontpage/index.php");
     } else {
         header("Location: ../public/index.php");
     }
