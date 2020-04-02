@@ -14,23 +14,9 @@
             <h1 class="tekst">Hier alle openbare dingen</h1>
             <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
             <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
-            <a href="hier het id" class="publiccode">en dan hier de code, vergeet de id niet</a>
         </div>
         <div class="create">
-            <button class="createbutton">Share your code</button>
+            <a href="../input/"><button class="createbutton">share your code</button></a>
         </div>
         <div class="private">
             <h1 class="tekst">Enter your private code</h1>

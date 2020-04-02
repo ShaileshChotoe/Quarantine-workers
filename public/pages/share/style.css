@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(52, 73, 94);
+}
+
+.public {
+    background-color: rgb(25,25,25);
+    height: 85%;
+    width: 65%;
+    position: absolute;
+}
+
+.tekst {
+    color: white;
+    text-align: center;
+}
+
+.create {
+    background-color: rgb(25,25,25);
+    height: 50%;
+    width: 33.5%;
+    margin-left: 65.5%;
+    position: absolute;
+}
+
+.private {
+    background-color: rgb(25,25,25);
+    height: 35%;
+    width: 33.5%;
+    margin-left: 65.5%;
+    margin-top: 26%;
+    position: absolute;
+}
+
+.code{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.code:hover{
+    background: #2ecc71;
+}
+
+.createbutton{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    height: 15%;
+    width: 70%;
+    margin-top: 12.5%;
+}
+.createbutton:hover{
+    background: #2ecc71;
+}
+
+.publiccode:hover{
+    background: #2ecc71;
+}
+
+.inputveld{
+    position: relative;
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 800px;
+    padding-bottom: 430px;
+    resize: none;
+}
+.kleur{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.kleur:hover{
+    background: #2ecc71;
+}
+.logout {
+    border:0;
+    background-color: rgb(25,25,25);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.logout:hover{
+    background: #2ecc71;
+}
+.section2 {
+    padding: 30%;
+}
+.check {
+    font-size: 2em;
+    color: white;
+}
+
+.check:hover {
+    cursor: pointer;
+}
+
+.languages {
+    margin-top: 3em;
+}
+
+option, select {
+    border-radius: 15px;
+    padding: 1em;
+    background: black;
+    color: white;
+    border: 2px solid #2ecc71;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+}

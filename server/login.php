@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 include 'classes/DB.class.php';
 
 $username = $_POST['username'];
@@ -14,6 +16,7 @@ checkIfUserExist($user);
 function checkIfUserExist($user)
 {
     if ($user != false) {
+        $_SESSION['id'] = $user->id;
         header("Location: ../public/pages/frontpage/index.php");
     } else {
         header("Location: ../public/index.php");
