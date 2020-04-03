@@ -13,7 +13,7 @@ else {
     $private = true;
 }
 $language = $_POST['language'];
-$link = 'www.randomlink.nl';
+$link = "emptylink";
 $userId = $_SESSION['id'];
 
 
@@ -26,7 +26,7 @@ $lastId = $db->connect()->getLastIdPost();
 
 
 $id =  $lastId[0];
-header("Location: ../public/pages/share/index2.php?id=$id");
+header("Location: ../public/pages/share/index.php?id=$id");
 
 echo "<pre>" . $code . "</pre>";
 

@@ -46,6 +46,15 @@ class DB
         return $stmt->fetch();
     }
 
+    function getUserName($id)
+    {
+        $sql = "SELECT username FROM users WHERE id = ?";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$id]);
+
+        return $stmt->fetch(PDO::FETCH_OBJ);
+    }
+
     function getPost($id)
     {
         $sql = "SELECT * FROM posts where id = ?";
@@ -53,6 +62,13 @@ class DB
         $stmt->execute([$id]);
 
         return $stmt->fetch(PDO::FETCH_OBJ);
+    }
+
+    function insertLinkintoPost($id, $link)
+    {
+        $sql = "UPDATE posts SET link = ? where id = ?";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$link, $id]);
     }
 
 }
