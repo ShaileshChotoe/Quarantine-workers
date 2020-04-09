@@ -22,7 +22,7 @@ if not EXISTS posts
 (
     id int AUTO_INCREMENT,
     userId int,
-    code MEDIUMTEXT,
+    code LONGTEXT,
     language varchar
 (25),
     private boolean,
