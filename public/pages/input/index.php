@@ -1,6 +1,10 @@
 <?php
 
+session_start();
 
+if (!isset($_SESSION['id'])) {
+    header("Location: ../..");
+}
 
 ?>
 
@@ -14,7 +18,9 @@
 </head>
 <body>
     <div class="index">
-        <button onclick="logout()" class="logout">Log uit</button>
+    <form action="../../../server/logout.php" method="post">
+    <button class="logout">Log uit</button>
+    </form>
                 <form method="post" action="../../../server/insert.php">
         <div class="public">
             <h1 class="tekst">plak hier je code</h1>
@@ -27,16 +33,13 @@
             <label class="check" for="private">private</label><br>
 
             <select class="languages" name="language" id="">
-                <option value="php">PHP</option>
-                <option value="html/css">HTML/CSS</option>
-                <option value="sql">SQL</option>
+                <option value="php">php</option>
+                <option value="html/css">html/css</option>
+                <option value="sql">sql</option>
             </select>
             </div>
         </div>
-        <div class="private">
-            <h1 class="tekst">Enter your private code</h1>
-            <input type="text" class="code" placeholder="Your private code">
-        </div>
+        
         </form>
     </div>
 </body>

@@ -11,6 +11,7 @@ $db = new DB('localhost', 'quarantine', 'root', '');
 
 $user = $db->connect()->getUser($username, $password);
 
+
 checkIfUserExist($user);
 
 function checkIfUserExist($user)

@@ -1,5 +1,11 @@
 <?php
 
+session_start();
+
+if (!isset($_SESSION['id'])) {
+    header("Location: ../..");
+}
+
 include '../../../server/classes/DB.class.php';
 
 $db   = 'quarantine';
@@ -41,8 +47,9 @@ $db = new DB('localhost', 'quarantine', 'root', '');
 </head>
 <body>
     <div class="index">
-        
-        <button onclick="logout()" class="logout">Log uit</button>
+    <form action="../../../server/logout.php" method="post">
+    <button class="logout">Log uit</button>
+    </form>
         <div class="public">
             <h1 class="tekst">Hier alle openbare dingen</h1>
             <?php
@@ -57,10 +64,10 @@ $db = new DB('localhost', 'quarantine', 'root', '');
         <div class="create">
             <a href="../input/"><button class="createbutton">share your code</button></a>
         </div>
-        <div class="private">
+        <!-- <div class="private">
             <h1 class="tekst">Enter your private code</h1>
             <input type="text" class="code" placeholder="Your private code">
-        </div>
+        </div> -->
     </div>
 </body>
 </html>

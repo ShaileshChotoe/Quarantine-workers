@@ -22,8 +22,7 @@ if not EXISTS posts
 (
     id int AUTO_INCREMENT,
     userId int,
-    code text
-(1),
+    code MEDIUMTEXT,
     language varchar
 (25),
     private boolean,
@@ -36,6 +35,7 @@ if not EXISTS posts
 insert into users
     (username, password, posts)
 VALUES
+    ('admin', 'admin', 0),
     ('shai', '123', 0),
     ('george', '123', 0),
     ('stijn', '123', 0),
